@@ -1,0 +1,12 @@
+.data-view {
+  padding: 1rem;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.filters {
+  margin-left: 25%;
+}
+ 

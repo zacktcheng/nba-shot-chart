@@ -1,0 +1,52 @@
+.profile {
+  display: flex;
+  padding: 0.25rem 0;
+  background: #ccc;
+}
+
+.profile div {
+  box-sizing: border-box;
+}
+
+.profile-entry {
+  padding: 0 1%;
+  margin: auto;
+}
+
+.profile-entry-left {
+  font-weight: bold;
+  margin: auto 0.5rem;
+}
+
+.profile-entry-right {
+  margin: auto 0.5rem;
+}
+
+.profile-pic {
+  width: 68.42px;
+  height: 50px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 0.25rem;
+}
+
+.team-logo {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 0.25rem;
+}
+
+.player-name {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .profile {
+    overflow: auto;
+  }
+}

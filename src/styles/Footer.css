@@ -1,0 +1,22 @@
+.App-footer {
+  background-color: #1D428A;
+  color: rgba(255, 255, 255, 0.75);
+  min-height: 50px;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+}
+
+.App-footer > p { margin: auto 0.5rem; }
+
+.App-footer a > i {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 0 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.App-footer a > i:hover { color: #fff; }

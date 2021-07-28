@@ -12,7 +12,7 @@ class Main extends Component {
  
     componentDidMount() {
         window.nba = nba;
-       this.loadPlayerInfo(DEFAULT_PLAYER_INFO.fullName);
+        this.loadPlayerInfo(DEFAULT_PLAYER_INFO.fullName);
     }
  
     loadPlayerInfo = (playerName) => {

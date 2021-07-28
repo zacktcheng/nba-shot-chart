@@ -3,10 +3,12 @@
   height: 50px;
   width: 100vw;
   color: white;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   box-shadow: -1px 0 5px 0 #1D428A;
-  z-index: 1;
+  z-index: 2;
 }
 
 .App-header div {

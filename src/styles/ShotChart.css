@@ -97,5 +97,23 @@ path.shot {
 /********END SHOT STYLES****** */
 /********SHOT TOOLTIPS****** */
 .d3-tip {
-  display: none;
+  background: #1D428A;
+  color: #fff;
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 0.125rem;
+}
+
+@media screen and (max-width: 800px) {
+  .d3-tip {
+    position: fixed !important;
+    top: 15px !important;
+    left: 30vw !important;
+    width: 40vw;
+    text-align: center;
+    z-index: 3;
+  }
 }

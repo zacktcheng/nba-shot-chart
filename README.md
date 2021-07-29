@@ -11,26 +11,16 @@ Please checkout the flow chart *(Coming soon)*.
 ### Features
 - #### Auto-completed search bar
    An auto-completable search bar which suggests a list of players' profile images and names.  
-- #### Random search Jobs in bulk.
-   The app searches remote jobs in bulk then randomly picks jobs within fixed quantity. Modifying to display simple and consice 
-   version of job information to the end user.  
-- #### Edit/Save job posts
-   The app is capable of allowing each registered user to edit the saved job posts. It can also extract useful keywords within the job description
-   of the saved job posts to further recommmend jobs for the user in future.
-- #### Recommend jobs in bulk
-   With the extracted keywords and it's recommendation algorithms, the app recommends jobs which are similar to jobs that the user saved previously. 
+- #### 4 UI filters to show the player strength in real time.
+   With D3 library and Ant Design library, the app provides 4 different kinds of filters to depict the strength of the selected player.  
+- #### A dashboard of visualized individual player’s shot data, including a shot chart and user profile view.
+   THe app utilizes the data from stats.nba.com then displays a dashboard developed with React JS, Data-Driven Documents lib and Ant Design.
 
 ### Tech
-- Java
-- Apache Tomcat
-- Apache Maven
-- REST API
-- Remotive Job API
-- Clearbit Company Name to Domain API
-- TextRazor API
-- MySQL
+- React JS
+- D3
+- Ant Design
 - HTML
 - CSS
 - JavaScript
-- Ajax
 - Heroku

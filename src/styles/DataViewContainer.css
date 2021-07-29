@@ -1,5 +1,5 @@
 .data-view {
-  padding: 1rem;
+  padding-bottom: 1rem;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -8,5 +8,10 @@
 
 .filters {
   margin-left: 25%;
+}
+
+.indicator {
+  margin-bottom: 0.25rem;
+  margin-right: 33.33%;
 }
  

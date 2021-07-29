@@ -17,6 +17,7 @@ class CounterSlider extends Component {
  render() {
    return (
      <Row>
+       <p class="indicator">Minimum Frequency Filter</p>
        <Col span={12}>
          <Slider min={1} max={20} onChange={this.onChange} value={this.state.inputValue} />
        </Col>

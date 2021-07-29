@@ -31,7 +31,7 @@ class DataViewContainer extends Component {
         <ShotChart playerId={this.props.playerId} minCount={this.state.minCount} chartType={this.state.chartType} displayTooltip={this.state.displayTooltip} />
         <div className="filters">
           {this.state.chartType === 'hexbin' ? <CounterSlider value={this.state.minCount} onCountSliderChange={_.debounce(this.onCountSliderChange, 500)}/> : null}     
-          <br/>
+          <p class="indicator">Chart Display Options</p>
           <Row>
             <Col span={9}>
               <Radio.Group onChange={this.onChartTypeChange} value={this.state.chartType}>
